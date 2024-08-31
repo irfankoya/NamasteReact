@@ -5,12 +5,14 @@
 // root.render(heading)
 
 //created nested elements using React
+
+
 import React from "react";
-import ReactDOM from "react-dom"
+import ReactDOM from "react-dom/client"
 
 const heading = React.createElement("div", { id: "parent" }, [
   React.createElement("div", { id: "child" }, [
-    React.createElement("h2", {}, "I am the inside"),
+    React.createElement("h2", {}, "I am irfan koya"),
     React.createElement("h4", {}, "I am 2nd inside"),
   ]),
   React.createElement("div", { id: "child" }, [
@@ -21,6 +23,6 @@ const heading = React.createElement("div", { id: "parent" }, [
 
 const hello = ReactDOM.createRoot(document.getElementById("root"));
 
-console.log(heading);
+
 
 hello.render(heading);
