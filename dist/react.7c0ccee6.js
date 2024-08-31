@@ -3,6 +3,7 @@
 // const root=ReactDOM.createRoot(document.getElementById("root"))
 // root.render(heading)
 //created nested elements using React
+impr;
 const heading = React.createElement("div", {
     id: "parent"
 }, [
